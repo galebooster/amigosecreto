@@ -2,6 +2,7 @@
 const inputAmigo = document.getElementById("amigo");
 const listaDeAmigos = [];
 const ulListaDeAmigos = document.getElementById("listaAmigos");
+const ulSecreto = document.getElementById("resultado");
 
 function agregarAmigo(){
   listaDeAmigos.push(inputAmigo.value);
